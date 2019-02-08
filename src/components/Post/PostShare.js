@@ -62,22 +62,6 @@ class PostShare extends React.Component {
           <TwitterShareButton url={url} title={title}>
             <TwitterIcon round size={iconSize} />
           </TwitterShareButton>
-          <GooglePlusShareButton url={url}>
-            <GooglePlusIcon round size={iconSize} />
-            <GooglePlusShareCount url={url}>
-              {count => <div className="share-count">{filter(count)}</div>}
-            </GooglePlusShareCount>
-          </GooglePlusShareButton>
-          <FacebookShareButton
-            url={url}
-            quote={`${title} - ${excerpt}`}
-            aria-label="Facebook share"
-          >
-            <FacebookIcon round size={iconSize} />
-            <FacebookShareCount url={url}>
-              {count => <div className="share-count">{filter(count)}</div>}
-            </FacebookShareCount>
-          </FacebookShareButton>
           <LinkedinShareButton url={url} title={title} description={excerpt}>
             <LinkedinIcon round size={iconSize} />
             <LinkedinShareCount url={url}>
