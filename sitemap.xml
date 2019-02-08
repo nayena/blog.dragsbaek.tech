@@ -3,7 +3,5 @@
 <url> <loc>https://blog.dragsbaek.tech/success/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.dragsbaek.tech/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.dragsbaek.tech/hello-world/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://blog.dragsbaek.tech/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.dragsbaek.tech/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://blog.dragsbaek.tech/search/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
